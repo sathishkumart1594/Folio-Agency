@@ -1,5 +1,5 @@
 import logo from "../assets/images/icons.png";
-import Job from "../assets/images/Job.png";
+import Job from "../assets/images/job.png";
 import Graphic from "../assets/images/Graphic Designer.png";
 import Visual from "../assets/images/Visual Designer.png";
 import Art from "../assets/images/Art Director.png";
