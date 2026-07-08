@@ -3,13 +3,13 @@ import lfFeatureBoard from "../assets/images1/LF_feature board.png";
 
 const LookAndFeel = () => {
   return (
-    <section className="relative overflow-hidden bg-white py-24">
+    <section className="relative overflow-hidden bg-white py-20 sm:py-24">
 
-      <div className="mx-auto max-w-7xl px-10">
+      <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
 
         {/* ================= TOP ================= */}
 
-        <div className="grid grid-cols-2 items-center gap-20">
+        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
 
           {/* Left Content */}
 

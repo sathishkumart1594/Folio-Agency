@@ -4,8 +4,11 @@ import Layout from "./layouts/Layout";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
 
+import { ThemeProvider } from "./context/ThemeContext";
+
 const App = () => {
   return (
+     <ThemeProvider>
     <BrowserRouter>
       <Routes>
 
@@ -21,6 +24,7 @@ const App = () => {
 
       </Routes>
     </BrowserRouter>
+    </ThemeProvider>
   );
 };
 

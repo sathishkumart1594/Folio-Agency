@@ -4,8 +4,8 @@ import overviewFeatures from "../assets/images1/overview_features.png";
 
 const DesignSystem = () => {
   return (
-    <section className="relative overflow-hidden bg-white py-24">
-      <div className="mx-auto max-w-[1440px] px-10 lg:px-20">
+    <section className="relative overflow-hidden bg-white py-20 sm:py-24">
+      <div className="mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-20">
 
         {/* ================= OVERVIEW SECTION ================= */}
 

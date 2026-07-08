@@ -5,11 +5,11 @@ import logo from "../assets/images/icons.png";
 
 const ByTheNumbers = () => {
   return (
-    <section className="relative overflow-hidden bg-[#262547] pt-24 text-white ">
+    <section className="relative overflow-hidden bg-[#262547] py-20 text-white sm:py-24">
 
-        <div>
+        <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
 
-            <div className="mb-8 flex gap-6 relative pl-40">
+            <div className="mb-8 flex gap-5">
 
               <img
                 src={logo}
@@ -17,7 +17,7 @@ const ByTheNumbers = () => {
                 className="w-6 "
               />
 
-              <span className="text-xs text-gray-400 pl-25 ">
+              <span className="text-xs text-gray-400">
                 02
               </span>
 
@@ -27,7 +27,7 @@ const ByTheNumbers = () => {
 
             </div>
 
-            <h2 className="w-[700px] text-[61px] font-bold leading-[72px] pl-37 rlative">
+            <h2 className="max-w-[700px] text-[40px] font-bold leading-[1.12] sm:text-[56px] lg:text-[61px]">
               By the Numbers,
             </h2>
           </div>
@@ -49,7 +49,7 @@ const ByTheNumbers = () => {
         "
       />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-10">
+      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
 
         {/* ================= TOP CONTENT ================= */}
 
@@ -70,7 +70,7 @@ const ByTheNumbers = () => {
 
         {/* ================= SLIDER IMAGE ================= */}
 
-        <div className="mt-24 flex items-center justify-center pt-10">
+        <div className="mt-16 flex items-center justify-center sm:mt-24">
   <img
     src={btnSlide}
     alt="Bento design showcase"

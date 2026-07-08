@@ -9,9 +9,25 @@ import Web from "../assets/images/Web Designer.png";
 
 const Jobs = () =>{
     return(
-        <section className="bg-[#F7F3F8] py-16 -top-410 relative">
+        <section
+  className="
+    relative
+    overflow-hidden
+
+    bg-[#EDE5F0]
+    text-[#232340]
+
+    dark:bg-[#18182F]
+    dark:text-white
+
+    transition-colors
+    duration-300
+
+    mx-auto
+  "
+>
             <div>
-                <div className="flex items-center gap-6 pl-40 relative">
+                <div className="flex items-center gap-6 pl-40 relative ">
                    <img src={logo} alt="logo"
                         className="w-7 "
                     />

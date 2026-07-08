@@ -4,7 +4,7 @@ import footerBottom from "../assets/images1/footer bottom.png";
 const Footer = () => {
   return (
     <footer className="w-full bg-white">
-      <div className="mx-auto max-w-7xl px-10 pt-20 pb-10">
+      <div className="mx-auto max-w-7xl px-5 pt-16 pb-10 sm:px-8 sm:pt-20 lg:px-10">
 
         {/* ================= FOOTER CONTENT ================= */}
 

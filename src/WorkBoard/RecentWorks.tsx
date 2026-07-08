@@ -4,12 +4,12 @@ import recentWorksSlide from "../assets/images1/RW_Work Slide.png";
 
 const RecentWorks = () => {
   return (
-    <section className="relative overflow-hidden bg-white py-24">
-      <div className="mx-auto max-w-7xl px-10">
+    <section className="relative overflow-hidden bg-white py-20 sm:py-24">
+      <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
 
         {/* ================= TITLE ================= */}
 
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
 
           <img
             src={recentWorksTitle}
@@ -28,7 +28,7 @@ const RecentWorks = () => {
 
         {/* ================= WORK SLIDES ================= */}
 
-        <div className="mt-20 flex justify-center">
+        <div className="mt-14 flex justify-center sm:mt-20">
 
           <img
             src={recentWorksSlide}
