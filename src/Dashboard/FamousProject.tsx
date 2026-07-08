@@ -1,4 +1,4 @@
-import CTA from "../assets/images/calltoaction.png";
+import CTA from "../assets/images/CTA1.png";
 import featured from "../assets/images/featured work.png";
 import logo from "../assets/images/icons.png";
 import portfolio from "../assets/images/portfolio card.png";
